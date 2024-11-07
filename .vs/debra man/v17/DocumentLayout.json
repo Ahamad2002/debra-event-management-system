@@ -1,0 +1,411 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\debra man\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|d:\\debra man\\debra man\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|solutionrelative:debra man\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|d:\\debra man\\debra man\\views\\pages\\adminhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|solutionrelative:debra man\\views\\pages\\adminhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|d:\\debra man\\debra man\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|solutionrelative:debra man\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|d:\\debra man\\debra man\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|solutionrelative:debra man\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|d:\\debra man\\debra man\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|solutionrelative:debra man\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|d:\\debra man\\debra man\\eventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|solutionrelative:debra man\\eventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|d:\\debra man\\debra man\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|solutionrelative:debra man\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|d:\\debra man\\debra man\\ticketdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|solutionrelative:debra man\\ticketdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|d:\\debra man\\debra man\\views\\pages\\admincommission.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|solutionrelative:debra man\\views\\pages\\admincommission.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|d:\\debra man\\debra man\\views\\pages\\allsale.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|solutionrelative:debra man\\views\\pages\\allsale.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|d:\\debra man\\debra man\\views\\pages\\events.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|solutionrelative:debra man\\views\\pages\\events.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|d:\\debra man\\debra man\\views\\pages\\allticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|solutionrelative:debra man\\views\\pages\\allticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|d:\\debra man\\debra man\\views\\pages\\addcommission.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|solutionrelative:debra man\\views\\pages\\addcommission.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|d:\\debra man\\debra man\\views\\pages\\viewticketsales.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|solutionrelative:debra man\\views\\pages\\viewticketsales.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|d:\\debra man\\debra man\\views\\shared\\_partnerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|solutionrelative:debra man\\views\\shared\\_partnerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|d:\\debra man\\debra man\\views\\pages\\setticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|solutionrelative:debra man\\views\\pages\\setticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|d:\\debra man\\debra man\\views\\pages\\partnerhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|solutionrelative:debra man\\views\\pages\\partnerhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|d:\\debra man\\debra man\\views\\pages\\bookedtickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|solutionrelative:debra man\\views\\pages\\bookedtickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|d:\\debra man\\debra man\\views\\pages\\tickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|solutionrelative:debra man\\views\\pages\\tickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|d:\\debra man\\debra man\\views\\pages\\addevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|solutionrelative:debra man\\views\\pages\\addevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|d:\\debra man\\debra man\\views\\pages\\userhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|solutionrelative:debra man\\views\\pages\\userhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|d:\\debra man\\debra man\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|solutionrelative:debra man\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|d:\\debra man\\debra man\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4354C57-A6CD-4644-8C56-60C448B055CD}|debra man\\debra man.csproj|solutionrelative:debra man\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\debra man\\debra man\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "debra man\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\debra man\\debra man\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "debra man\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T08:20:50.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "D:\\debra man\\debra man\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "debra man\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "D:\\debra man\\debra man\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "debra man\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T08:19:34.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\debra man\\debra man\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "debra man\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\debra man\\debra man\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "debra man\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T08:19:30.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\debra man\\debra man\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "debra man\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\debra man\\debra man\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "debra man\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:18:55.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EventViewModel.cs",
+              "DocumentMoniker": "D:\\debra man\\debra man\\EventViewModel.cs",
+              "RelativeDocumentMoniker": "debra man\\EventViewModel.cs",
+              "ToolTip": "D:\\debra man\\debra man\\EventViewModel.cs",
+              "RelativeToolTip": "debra man\\EventViewModel.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:18:30.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminHome.cshtml",
+              "DocumentMoniker": "D:\\debra man\\debra man\\Views\\Pages\\AdminHome.cshtml",
+              "RelativeDocumentMoniker": "debra man\\Views\\Pages\\AdminHome.cshtml",
+              "ToolTip": "D:\\debra man\\debra man\\Views\\Pages\\AdminHome.cshtml",
+              "RelativeToolTip": "debra man\\Views\\Pages\\AdminHome.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T22:14:21.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Event.cs",
+              "DocumentMoniker": "D:\\debra man\\debra man\\Event.cs",
+              "RelativeDocumentMoniker": "debra man\\Event.cs",
+              "ToolTip": "D:\\debra man\\debra man\\Event.cs",
+              "RelativeToolTip": "debra man\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:18:13.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TicketDetails.cs",
+              "DocumentMoniker": "D:\\debra man\\debra man\\TicketDetails.cs",
+              "RelativeDocumentMoniker": "debra man\\TicketDetails.cs",
+              "ToolTip": "D:\\debra man\\debra man\\TicketDetails.cs",
+              "RelativeToolTip": "debra man\\TicketDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:18:35.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminCommission.cshtml",
+              "DocumentMoniker": "D:\\debra man\\debra man\\Views\\Pages\\AdminCommission.cshtml",
+              "RelativeDocumentMoniker": "debra man\\Views\\Pages\\AdminCommission.cshtml",
+              "ToolTip": "D:\\debra man\\debra man\\Views\\Pages\\AdminCommission.cshtml",
+              "RelativeToolTip": "debra man\\Views\\Pages\\AdminCommission.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T22:14:21.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Allsale.cshtml",
+              "DocumentMoniker": "D:\\debra man\\debra man\\Views\\Pages\\Allsale.cshtml",
+              "RelativeDocumentMoniker": "debra man\\Views\\Pages\\Allsale.cshtml",
+              "ToolTip": "D:\\debra man\\debra man\\Views\\Pages\\Allsale.cshtml",
+              "RelativeToolTip": "debra man\\Views\\Pages\\Allsale.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T22:14:21.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AllTicket.cshtml",
+              "DocumentMoniker": "D:\\debra man\\debra man\\Views\\Pages\\AllTicket.cshtml",
+              "RelativeDocumentMoniker": "debra man\\Views\\Pages\\AllTicket.cshtml",
+              "ToolTip": "D:\\debra man\\debra man\\Views\\Pages\\AllTicket.cshtml",
+              "RelativeToolTip": "debra man\\Views\\Pages\\AllTicket.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAB+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T22:14:21.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Events.cshtml",
+              "DocumentMoniker": "D:\\debra man\\debra man\\Views\\Pages\\Events.cshtml",
+              "RelativeDocumentMoniker": "debra man\\Views\\Pages\\Events.cshtml",
+              "ToolTip": "D:\\debra man\\debra man\\Views\\Pages\\Events.cshtml",
+              "RelativeToolTip": "debra man\\Views\\Pages\\Events.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T22:14:21.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddCommission.cshtml",
+              "DocumentMoniker": "D:\\debra man\\debra man\\Views\\Pages\\AddCommission.cshtml",
+              "RelativeDocumentMoniker": "debra man\\Views\\Pages\\AddCommission.cshtml",
+              "ToolTip": "D:\\debra man\\debra man\\Views\\Pages\\AddCommission.cshtml",
+              "RelativeToolTip": "debra man\\Views\\Pages\\AddCommission.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T22:14:21.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ViewTicketSales.cshtml",
+              "DocumentMoniker": "D:\\debra man\\debra man\\Views\\Pages\\ViewTicketSales.cshtml",
+              "RelativeDocumentMoniker": "debra man\\Views\\Pages\\ViewTicketSales.cshtml",
+              "ToolTip": "D:\\debra man\\debra man\\Views\\Pages\\ViewTicketSales.cshtml",
+              "RelativeToolTip": "debra man\\Views\\Pages\\ViewTicketSales.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T22:14:21.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_PartnerLayout.cshtml",
+              "DocumentMoniker": "D:\\debra man\\debra man\\Views\\Shared\\_PartnerLayout.cshtml",
+              "RelativeDocumentMoniker": "debra man\\Views\\Shared\\_PartnerLayout.cshtml",
+              "ToolTip": "D:\\debra man\\debra man\\Views\\Shared\\_PartnerLayout.cshtml",
+              "RelativeToolTip": "debra man\\Views\\Shared\\_PartnerLayout.cshtml",
+              "ViewState": "AQIAACIAAAAAMzMzMzMrwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T22:14:21.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SetTicket.cshtml",
+              "DocumentMoniker": "D:\\debra man\\debra man\\Views\\Pages\\SetTicket.cshtml",
+              "RelativeDocumentMoniker": "debra man\\Views\\Pages\\SetTicket.cshtml",
+              "ToolTip": "D:\\debra man\\debra man\\Views\\Pages\\SetTicket.cshtml",
+              "RelativeToolTip": "debra man\\Views\\Pages\\SetTicket.cshtml",
+              "ViewState": "AQIAAAIAAABAMzMzMzMbwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T22:14:21.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PartnerHome.cshtml",
+              "DocumentMoniker": "D:\\debra man\\debra man\\Views\\Pages\\PartnerHome.cshtml",
+              "RelativeDocumentMoniker": "debra man\\Views\\Pages\\PartnerHome.cshtml",
+              "ToolTip": "D:\\debra man\\debra man\\Views\\Pages\\PartnerHome.cshtml",
+              "RelativeToolTip": "debra man\\Views\\Pages\\PartnerHome.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T22:14:21.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BookedTickets.cshtml",
+              "DocumentMoniker": "D:\\debra man\\debra man\\Views\\Pages\\BookedTickets.cshtml",
+              "RelativeDocumentMoniker": "debra man\\Views\\Pages\\BookedTickets.cshtml",
+              "ToolTip": "D:\\debra man\\debra man\\Views\\Pages\\BookedTickets.cshtml",
+              "RelativeToolTip": "debra man\\Views\\Pages\\BookedTickets.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T22:14:21.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Tickets.cshtml",
+              "DocumentMoniker": "D:\\debra man\\debra man\\Views\\Pages\\Tickets.cshtml",
+              "RelativeDocumentMoniker": "debra man\\Views\\Pages\\Tickets.cshtml",
+              "ToolTip": "D:\\debra man\\debra man\\Views\\Pages\\Tickets.cshtml",
+              "RelativeToolTip": "debra man\\Views\\Pages\\Tickets.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T22:14:21.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddEvent.cshtml",
+              "DocumentMoniker": "D:\\debra man\\debra man\\Views\\Pages\\AddEvent.cshtml",
+              "RelativeDocumentMoniker": "debra man\\Views\\Pages\\AddEvent.cshtml",
+              "ToolTip": "D:\\debra man\\debra man\\Views\\Pages\\AddEvent.cshtml",
+              "RelativeToolTip": "debra man\\Views\\Pages\\AddEvent.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T22:14:21.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserHome.cshtml",
+              "DocumentMoniker": "D:\\debra man\\debra man\\Views\\Pages\\UserHome.cshtml",
+              "RelativeDocumentMoniker": "debra man\\Views\\Pages\\UserHome.cshtml",
+              "ToolTip": "D:\\debra man\\debra man\\Views\\Pages\\UserHome.cshtml",
+              "RelativeToolTip": "debra man\\Views\\Pages\\UserHome.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T22:14:21.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\debra man\\debra man\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "debra man\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\debra man\\debra man\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "debra man\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAE8AAAAAMjMzMzMLwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T22:14:21.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\debra man\\debra man\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "debra man\\Views\\Account\\Index.cshtml",
+              "ToolTip": "D:\\debra man\\debra man\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "debra man\\Views\\Account\\Index.cshtml",
+              "ViewState": "AQIAAE4AAAAAZmZmZmYkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T22:14:21.465Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

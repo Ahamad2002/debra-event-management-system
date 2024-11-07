@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DEBRA</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/debra_man.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            background: #f2f2f2;
+        }
+
+        .navbar-custom {
+            background-color: #007bff; 
+        }
+
+        .navbar-brand, .navbar-nav .nav-link {
+            color: #ffffff !important; 
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #f2f2f2 !important; 
+        }
+
+        .navbar-toggler {
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Toggler icon color */
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        .h-custom {
+            height: calc(100% - 73px);
+        }
+
+        
+        footer {
+            background-color: #007bff;
+        }
+
+        footer .text-white {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/Pages/PartnerHome">DEBRA Partner</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Pages/AddEvent">Create New Event</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Pages/SetTicket">Set Ticket Details</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Pages/ViewTicketSales">View Ticket Sale Status</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Pages/AddCommission">set commision</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Account/index">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <main role="main" class="pb-3 h-custom">
+            @RenderBody()
+        </main>
+    </div>
+    <footer class="d-flex flex-column text-center text-white py-4 px-4 px-xl-5">
+        <div class="mb-3 mb-md-0">
+            Copyright © 2024. DEBRA All rights reserved.
+        </div>
+        <div>
+            <a href="#!" class="text-white me-4">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#!" class="text-white me-4">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#!" class="text-white me-4">
+                <i class="fab fa-google"></i>
+            </a>
+            <a href="#!" class="text-white">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

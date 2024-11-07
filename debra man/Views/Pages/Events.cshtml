@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "All Events";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<div class="container mt-5">
+    <h2 class="mt-5">All Events</h2>
+
+    <div class="row mt-5">
+        @foreach (var eventItem in ViewBag.Events)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="~/@eventItem.ImagePath" class="card-img-top" alt="@eventItem.EventName">
+                    <div class="card-body">
+                        <h5 class="card-title">@eventItem.EventName</h5>
+                        <p class="card-text">@eventItem.EventDescription</p>
+                        <p class="card-text"><small class="text-muted">Date: @eventItem.EventDate.ToString("yyyy-MM-dd")</small></p>
+                        <p class="card-text"><small class="text-muted">Venue: @eventItem.Venue</small></p>
+                        <a href="/Pages/Tickets?eventId=@eventItem.EventID" class="btn btn-primary">Buy Ticket</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+}

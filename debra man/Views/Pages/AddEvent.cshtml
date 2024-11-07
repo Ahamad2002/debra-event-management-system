@@ -1,0 +1,84 @@
+﻿@{
+    ViewData["Title"] = "Add Event";
+    Layout = "~/Views/Shared/_PartnerLayout.cshtml";
+
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="text-center">Add Event</h2>
+                </div>
+                <div class="card-body">
+                    <form method="post" enctype="multipart/form-data" action="/Pages/AddEvent">
+                        <div class="form-group">
+                            <label for="eventName">Event Name</label>
+                            <input type="text" class="form-control" id="eventName" name="eventName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="eventDescription">Event Description</label>
+                            <textarea class="form-control" id="eventDescription" name="eventDescription" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="eventDate">Event Date</label>
+                            <input type="date" class="form-control" id="eventDate" name="eventDate" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="venue">Venue</label>
+                            <input type="text" class="form-control" id="venue" name="venue" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="eventImage">Event Image</label>
+                            <input type="file" class="form-control-file" id="eventImage" name="eventImage">
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="text-center">My Events</h2>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Event Name</th>
+                                <th>Description</th>
+                                <th>Date</th>
+                                <th>Venue</th>
+                                <th>Image</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var eventItem in ViewBag.Events)
+                            {
+                                <tr>
+                                    <td>@eventItem.EventName</td>
+                                    <td>@eventItem.EventDescription</td>
+                                    <td>@eventItem.EventDate.ToString("d")</td>
+                                    <td>@eventItem.Venue</td>
+                                    <td><img src="~/@eventItem.ImagePath" alt="Event Image" width="100"></td>
+                                    <td>
+                                        <a href="/Pages/EditEvent/@eventItem.EventID" class="btn btn-sm btn-warning">Edit</a>
+                                        <a href="/Pages/DeleteEvent/@eventItem.EventID" class="btn btn-sm btn-danger">Delete</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

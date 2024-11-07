@@ -1,0 +1,59 @@
+﻿@model List<debra_man.Controllers.Event>
+
+@{
+    ViewData["Title"] = "All Events";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="text-center">All Events</h2>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Event Name</th>
+                                <th>Description</th>
+                                <th>Date</th>
+                                <th>Venue</th>
+                                <th>Image</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model != null && Model.Any())
+                            {
+                                @foreach (var eventItem in Model)
+                                {
+                                    <tr>
+                                        <td>@eventItem.EventName</td>
+                                        <td>@eventItem.EventDescription</td>
+                                        <td>@eventItem.EventDate.ToShortDateString()</td>
+                                        <td>@eventItem.Venue</td>
+                                        <td><img src="~/@eventItem.ImagePath" alt="Event Image" width="100"></td>
+                                        <td>
+                                            <form method="post" action="/Pages/DeleteEvent1">
+                                                <input type="hidden" name="eventId" value="@eventItem.EventID" />
+                                                <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="6" class="text-center">No events found.</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

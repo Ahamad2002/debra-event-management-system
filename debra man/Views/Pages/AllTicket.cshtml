@@ -1,0 +1,57 @@
+﻿@model List<debra_man.Controllers.TicketDetails>
+
+@{
+    ViewData["Title"] = "All Tickets";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="text-center">All Tickets</h2>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Event Name</th>
+                                <th>Ticket Type</th>
+                                <th>Price Rs</th>
+                                <th>Quantity</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model != null && Model.Any())
+                            {
+                                @foreach (var ticket in Model)
+                                {
+                                    <tr>
+                                        <td>@ticket.EventName</td>
+                                        <td>@ticket.TicketType</td>
+                                        <td>Rs.@ticket.TicketPrice.ToString("N2")</td>
+                                        <td>@ticket.TicketQuantity</td>
+                                        <td>
+                                            <form method="post" action="/Pages/DeleteTicket1">
+                                                <input type="hidden" name="ticketDetailsId" value="@ticket.TicketDetailsID" />
+                                                <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="6" class="text-center">No tickets found.</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

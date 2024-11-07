@@ -1,0 +1,69 @@
+﻿
+
+@{
+    ViewData["Title"] = "Edit Ticket";
+    Layout = "~/Views/Shared/_PartnerLayout.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="text-center">Edit Ticket</h2>
+                </div>
+                <div class="card-body">
+                    <form method="post" action="/Pages/EditTicket/@Model.TicketDetailsID">
+                        <div class="form-group">
+                            <label for="eventId">Event Name</label>
+                            <select class="form-control" id="eventId" name="eventId" required>
+                                @foreach (var eventItem in ViewBag.Events)
+                                {
+                                    @if (eventItem.EventID == Model.EventID)
+                                    {
+                                        <option value="@eventItem.EventID" selected>@eventItem.EventName</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@eventItem.EventID">@eventItem.EventName</option>
+                                    }
+                                }
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="ticketType">Ticket Type</label>
+                            <select class="form-control" id="ticketType" name="ticketType" required>
+                                @if (Model.TicketType == "First Class")
+                                {
+                                    <option value="First Class" selected>First Class</option>
+                                    <option value="Second Class">Second Class</option>
+                                }
+                                else if (Model.TicketType == "Second Class")
+                                {
+                                    <option value="First Class">First Class</option>
+                                    <option value="Second Class" selected>Second Class</option>
+                                }
+                                else
+                                {
+                                    <option value="First Class">First Class</option>
+                                    <option value="Second Class">Second Class</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="ticketPrice">Ticket Price</label>
+                            <input type="number" class="form-control" id="ticketPrice" name="ticketPrice" value="@Model.TicketPrice" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="ticketQuantity">Ticket Quantity</label>
+                            <input type="number" class="form-control" id="ticketQuantity" name="ticketQuantity" value="@Model.TicketQuantity" required>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

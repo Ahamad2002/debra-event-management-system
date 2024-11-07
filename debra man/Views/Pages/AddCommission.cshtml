@@ -1,0 +1,89 @@
+﻿@model List<debra_man.Controllers.Commission>
+
+@{
+    ViewData["Title"] = "Add Commission";
+    Layout = "~/Views/Shared/_PartnerLayout.cshtml";
+    var events = ViewBag.Events as List<debra_man.Controllers.Event>;
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="text-center">Add Commission</h2>
+                </div>
+                <div class="card-body">
+                    <form method="post" action="/Pages/AddCommission">
+                        <div class="form-group">
+                            <label for="eventId">Event</label>
+                            <select class="form-control" id="eventId" name="eventId" required>
+                                <option value="">Select Event</option>
+                                @foreach (var evt in events)
+                                {
+                                    <option value="@evt.EventID">@evt.EventName</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="commissionRate">Commission Rate (%)</label>
+                            <input type="number" class="form-control" id="commissionRate" name="commissionRate" step="0.01" required>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="text-center">Commissions</h2>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Event Name</th>
+                                <th>Commission Rate (%)</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model != null && Model.Any())
+                            {
+                                @foreach (var commission in Model)
+                                {
+                                    <tr>
+                                        <td>@commission.EventName</td>
+                                        <td>@commission.CommissionRate.ToString("N2")</td>
+                                        <td>
+                                            <form method="post" action="/Pages/EditCommission" class="d-inline">
+                                                <input type="hidden" name="commissionId" value="@commission.CommissionID" />
+                                                <button type="submit" class="btn btn-warning">Edit</button>
+                                            </form>
+                                            <form method="post" action="/Pages/DeleteCommission" class="d-inline ml-2">
+                                                <input type="hidden" name="commissionId" value="@commission.CommissionID" />
+                                                <button type="submit" class="btn btn-danger">Delete</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="3" class="text-center">No commissions available.</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

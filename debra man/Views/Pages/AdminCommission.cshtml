@@ -1,0 +1,55 @@
+﻿@model List<debra_man.Controllers.CommissionSummary>
+
+@{
+    ViewData["Title"] = "Admin Commission";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    decimal totalCommission = ViewBag.TotalCommission;
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="text-center">Commission Summary</h2>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Event Name</th>
+                                <th>Commission Rate (%)</th>
+                                <th>Total Sales (Rs)</th>
+                                <th>Total Commission (Rs)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model != null && Model.Any())
+                            {
+                                @foreach (var commission in Model)
+                                {
+                                    <tr>
+                                        <td>@commission.EventName</td>
+                                        <td>@commission.CommissionRate.ToString("N2")</td>
+                                        <td>Rs.@commission.TotalSales.ToString("N2")</td>
+                                        <td>Rs.@commission.TotalCommissionAmount.ToString("N2")</td>
+                                    </tr>
+                                }
+                                <tr>
+                                    <td colspan="3" class="text-right"><strong>Total Commission:</strong></td>
+                                    <td><strong>Rs.@totalCommission.ToString("N2")</strong></td>
+                                </tr>
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="4" class="text-center">No commissions found.</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

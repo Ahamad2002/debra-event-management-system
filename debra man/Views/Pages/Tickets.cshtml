@@ -1,0 +1,64 @@
+﻿@model List<debra_man.Controllers.TicketDetails>
+
+@{
+    ViewData["Title"] = "Tickets";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+    var eventId = ViewBag.EventId;
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="text-center">Tickets for Event ID: @eventId</h2>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Ticket Type</th>
+                                <th>Price</th>
+                                <th>Available Quantity</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model != null && Model.Any())
+                            {
+                                @foreach (var ticket in Model)
+                                {
+                                    <tr>
+                                        <td>@ticket.TicketType</td>
+                                        <td>Rs.@ticket.TicketPrice.ToString("N2")</td>
+                                        <td>@ticket.TicketQuantity</td>
+                                        <td>
+                                            @if (ticket.TicketQuantity > 0)
+                                            {
+                                                <form method="post" action="/Pages/BuyTicket">
+                                                    <input type="hidden" name="ticketDetailsId" value="@ticket.TicketDetailsID" />
+                                                    <input type="number" name="quantity" value="1" min="1" max="@ticket.TicketQuantity" required />
+                                                    <button type="submit" class="btn btn-primary btn-sm">Buy Ticket</button>
+                                                </form>
+                                            }
+                                            else
+                                            {
+                                                <span class="text-danger">Sold Out</span>
+                                            }
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="4" class="text-center">No tickets available for this event.</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

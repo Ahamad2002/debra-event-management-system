@@ -1,0 +1,57 @@
+﻿@model List<debra_man.Controllers.TicketSale>
+
+@{
+    ViewData["Title"] = "All Sales";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    decimal totalSalesAmount = ViewBag.TotalSalesAmount;
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="text-center">All Ticket Sales</h2>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Event Name</th>
+                                <th>Ticket Type</th>
+                                <th>Sale Date</th>
+                                <th>Status</th>
+                                <th>Amount (Rs)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model != null && Model.Any())
+                            {
+                                @foreach (var sale in Model)
+                                {
+                                    <tr>
+                                        <td>@sale.EventName</td>
+                                        <td>@sale.TicketType</td>
+                                        <td>@sale.SaleDate.ToShortDateString()</td>
+                                        <td>@sale.SaleStatus</td>
+                                        <td>Rs.@sale.SaleAmount.ToString("N2")</td>
+                                    </tr>
+                                }
+                                <tr>
+                                    <td colspan="4" class="text-right"><strong>Total Sales Amount:</strong></td>
+                                    <td><strong>Rs.@totalSalesAmount.ToString("N2")</strong></td>
+                                </tr>
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="5" class="text-center">No sales found.</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
